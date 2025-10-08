@@ -28,37 +28,15 @@ A modern, responsive portfolio website showcasing my skills and projects as a so
 
 Visit the portfolio: [https://diogocarrola.github.io](https://diogocarrola.github.io)
 
-## 📁 Project Structure
-
-diogocarrola.github.io/
-├── index.html # Homepage
-├── pages/ # Persona pages
-│ ├── developer.html
-│ ├── scout.html
-│ └── builder.html
-├── assets/
-│ ├── css/ # Stylesheets
-│ ├── js/ # JavaScript files
-│ └── images/ # Images and icons
-└── README.md
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/diogocarrola/diogocarrola.github.io.git
-```
-2. Open index.html in your browser to view the portfolio locally.
-
 ## 📄 License
 
 This project is open source and available under the MIT License.
 
 ## 🌐 Contact
 
-Portfolio: diogocarrola.github.io
+Portfolio: [diogocarrola.github.io](https://diogocarrola.github.io)
 
-LinkedIn: Diogo Carrola
+LinkedIn: [Diogo Carrola](https://www.linkedin.com/in/diogocarrola/)
 
 Email: diogo.carrola@gmail.com
 
