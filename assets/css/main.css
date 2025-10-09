@@ -808,12 +808,12 @@ blockquote {
 }
 
 /* Disable CV and translate buttons */
-.btn[download], .language-switcher {
+.language-switcher {
     opacity: 0.4;
     pointer-events: none;
 }
 
-.btn[download]:hover, .language-switcher:hover {
+.language-switcher:hover {
     opacity: 0.5;
     cursor: not-allowed;
 }
