@@ -37,18 +37,18 @@
         
         <!-- Hero Content -->
         <div class="hero-content">
-            <h1 class="slide-in-from-top">Diogo Carrola</h1>
-            <p class="welcome-text slide-in-from-bottom">Developer • Scout • Builder</p>
+            <h1 class="slide-in-from-top" data-i18n="home_title">Diogo Carrola</h1>
+            <p class="welcome-text slide-in-from-bottom" data-i18n="home_welcome">Developer • Scout • Builder</p>
             
             <!-- Action Buttons -->
             <div class="button-group">
                 <a href="https://drive.google.com/uc?export=download&id=1CAVoGlExCf9G4okf0lq18TG8iZVKm7MA" class="btn btn-primary" download="Diogo-Carrola-CV.pdf">
                     <span class="material-icons">description</span>
-                    Download CV
+                    <span data-i18n="downloadCV">Download CV</span>
                 </a>
                 <a href="https://linkedin.com/in/diogocarrola" target="_blank" class="btn btn-secondary">
                     <span class="material-icons">person</span>
-                    LinkedIn
+                    <span data-i18n="linkedin">LinkedIn</span>
                 </a>
             </div>
         </div>
@@ -58,33 +58,33 @@
     <nav class="persona-nav">
         <a href="pages/developer.html" class="nav-card developer-card slide-in">
             <span class="nav-icon">💻</span>
-            <h3>Developer</h3>
-            <p>Code & Innovation</p>
+            <h3 data-i18n="home_developer">Developer</h3>
+            <p data-i18n="home_developer_desc">Code & Innovation</p>
         </a>
-        
+
         <a href="pages/scout.html" class="nav-card scout-card slide-in">
             <span class="nav-icon">🏕️</span>
-            <h3>Scout</h3>
-            <p>Leadership & Adventure</p>
+            <h3 data-i18n="home_scout">Scout</h3>
+            <p data-i18n="home_scout_desc">Leadership & Adventure</p>
         </a>
-        
+
         <a href="pages/builder.html" class="nav-card builder-card slide-in">
             <span class="nav-icon">🛠️</span>
-            <h3>Builder</h3>
-            <p>DIY & Creation</p>
+            <h3 data-i18n="home_builder">Builder</h3>
+            <p data-i18n="home_builder_desc">DIY & Creation</p>
         </a>
     </nav>
 
     <!-- About Section -->
     <section class="about-section slide-in">
         <div class="about-card">
-            <h2>Hello, I'm Diogo! 👋</h2>
-            <p class="welcome-text">
-                Welcome to my portfolio! I'm a passionate <span class="highlight developer-text">Developer</span>, 
-                dedicated <span class="highlight scout-text">Scout</span> and hands-on 
+            <h2 data-i18n="home_hello">Hello, I'm Diogo! 👋</h2>
+            <p class="welcome-text" data-i18n="home_intro1">
+                Welcome to my portfolio! I'm a passionate <span class="highlight developer-text">Developer</span>,
+                dedicated <span class="highlight scout-text">Scout</span> and hands-on
                 <span class="highlight builder-text">Builder</span> from Portugal.
             </p>
-            <p class="welcome-text">
+            <p class="welcome-text" data-i18n="home_intro2">
                 I believe in learning by doing, teamwork and making a positive impact through code, community and creativity.
                 Explore my journey through the different aspects of who I am and what I love to create.
             </p>
@@ -93,10 +93,11 @@
 
     <!-- Footer -->
     <footer class="main-footer">
-        <p class="copyright">&copy; 2025 <a href="https://github.com/diogocarrola" target="_blank" title="GitHub Profile" style="color: inherit; text-decoration: none;">Diogo Carrola</a>. All rights reserved.</p>
+        <p class="copyright" data-i18n="copyright">&copy; 2025 <a href="https://github.com/diogocarrola" target="_blank" title="GitHub Profile" style="color: inherit; text-decoration: none;">Diogo Carrola</a>. All rights reserved.</p>
     </footer>
 
     <!-- JavaScript -->
+    <script src="assets/js/translations.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/dark-mode.js"></script>
     <script src="assets/js/animations.js"></script>
