@@ -1,12 +1,15 @@
 class PortfolioApp {
     constructor() {
+        this.currentLanguage = localStorage.getItem('language') || 'en';
         this.init();
     }
-    
+
     init() {
         this.setupEventListeners();
         this.initializeComponents();
         this.setupScrollAnimations();
+        this.setupLanguageSwitcher();
+        this.setLanguage(this.currentLanguage);
     }
     
     setupEventListeners() {
@@ -140,6 +143,36 @@ class PortfolioApp {
         // Will be implemented in Phase 2
     }
     
+    setupLanguageSwitcher() {
+        const langButtons = document.querySelectorAll('.lang-btn');
+        langButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                const selectedLang = e.target.dataset.lang;
+                this.setLanguage(selectedLang);
+            });
+        });
+    }
+
+    setLanguage(lang) {
+        this.currentLanguage = lang;
+        localStorage.setItem('language', lang);
+
+        // Update button active states
+        const langButtons = document.querySelectorAll('.lang-btn');
+        langButtons.forEach(button => {
+            button.classList.toggle('active', button.dataset.lang === lang);
+        });
+
+        // Update all translatable elements
+        const translatableElements = document.querySelectorAll('[data-i18n]');
+        translatableElements.forEach(element => {
+            const key = element.dataset.i18n;
+            if (translations[lang] && translations[lang][key]) {
+                element.innerHTML = translations[lang][key];
+            }
+        });
+    }
+
     trackDownload(type) {
         console.log(`${type} download initiated`);
         // You can integrate with analytics here
