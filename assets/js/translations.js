@@ -40,6 +40,8 @@ const translations = {
     "dev_skill_problemsolving": "Problem Solving",
     "dev_odin": "The Odin Project",
     "dev_odin_desc": "Following The Odin Project curriculum to master full-stack web development and best practices.",
+    "dev_project_title": "Raspberry Pi Home Server",
+    "dev_project_desc": "Developed a personal home server setup on a Raspberry Pi to provide network-wide ad blocking and ad-free YouTube on Google TV. I containerized Pi-hole using Docker for DNS-based ad blocking, integrated SmartTubeNext for client-side YouTube ad removal, and created automated Bash scripts for easy setup and maintenance. The project includes comprehensive documentation in English, making it reproducible for others. Through this, I gained hands-on experience with Linux administration, networking, and open-source tools, while solving real-world problems like improving media consumption in my home.",
 
     // Scout
     "scout_title": "Diogo Scout",
@@ -123,6 +125,8 @@ const translations = {
     "dev_skill_problemsolving": "Resolução de Problemas",
     "dev_odin": "The Odin Project",
     "dev_odin_desc": "Estou a seguir o currículo do The Odin Project para dominar o desenvolvimento web full-stack e melhores práticas.",
+    "dev_project_title": "Raspberry Pi Home Server",
+    "dev_project_desc": "Desenvolvi uma configuração pessoal de servidor doméstico num Raspberry Pi para fornecer bloqueio de anúncios em toda a rede e YouTube sem anúncios na Google TV. Containerizei o Pi-hole usando Docker para bloqueio de anúncios baseado em DNS, integrei o SmartTubeNext para remoção de anúncios do YouTube no lado do cliente e criei scripts Bash automatizados para configuração e manutenção fáceis. O projeto inclui documentação abrangente em inglês, tornando-o reproduzível para outros. Através disto, ganhei experiência prática com administração Linux, networking e ferramentas open-source, resolvendo problemas do mundo real como melhorar o consumo de mídia em casa.",
 
     // Scout
     "scout_title": "Diogo Escuteiro",
